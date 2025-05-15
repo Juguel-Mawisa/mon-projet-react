@@ -12,6 +12,7 @@ import HelloUser from './components/hello-user'
 import LikeButton from './components/like'
 import NomEnDirect from './components/nom-en-direct'
 import PageTitle from './components/page-title'
+import TodoList from './components/todo-list'
 import UserCard from './components/user-card'
 import Welcome from './components/welcome'
 
@@ -19,8 +20,9 @@ import Welcome from './components/welcome'
 function App() {
   
   return (
-    <div className="p-4">
-      <HelloUser prenom="le monde" />
+    <div className="p-4 mx-auto">
+      <h1 className='text-2xl font-bold text-center'>Liste de taches</h1>
+      {/* <HelloUser prenom="le monde" />
       <CurrentTime/>
       <EmojiMessage emoji="🚀" message="En route vers React !"/>
       <UserCard nom="Juguel Mawisa" email="juguelmawisa@gmail.com" />
@@ -31,8 +33,8 @@ function App() {
       <ColorBox/>
       <PageTitle/>
       <FakeApi/>
-      <AutoColor/>
-
+      <AutoColor/> */}
+      <TodoList/>
 
     </div>   
   )
