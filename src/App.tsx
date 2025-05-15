@@ -9,6 +9,7 @@ import CurrentTime from './components/current-time'
 import EmojiMessage from './components/emoji-message'
 import FakeApi from './components/fake-api'
 import FormExemple from './components/form-exemple'
+import FormulaireInscription from './components/form-inscription'
 import HelloUser from './components/hello-user'
 import LikeButton from './components/like'
 import NomEnDirect from './components/nom-en-direct'
@@ -36,7 +37,8 @@ function App() {
       <FakeApi/>
       <AutoColor/> */}
       {/* <TodoList/> */}
-      <FormExemple/>
+      {/* <FormExemple/> */}
+       <FormulaireInscription/> 
 
     </div>   
   )
