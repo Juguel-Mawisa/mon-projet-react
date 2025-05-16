@@ -14,6 +14,7 @@ import HelloUser from './components/hello-user'
 import LikeButton from './components/like'
 import NomEnDirect from './components/nom-en-direct'
 import PageTitle from './components/page-title'
+import Parent from './components/parent'
 import TodoList from './components/todo-list'
 import UserCard from './components/user-card'
 import Welcome from './components/welcome'
@@ -38,8 +39,8 @@ function App() {
       <AutoColor/> */}
       {/* <TodoList/> */}
       {/* <FormExemple/> */}
-       <FormulaireInscription/> 
-
+       {/* <FormulaireInscription/>  */}
+      {<Parent/> }
     </div>   
   )
 }
